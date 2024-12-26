@@ -136,6 +136,15 @@ const Modyamean = () => {
 
   return (
     <div className="container">
+      
+      <a
+        className="email-button"
+        href="mailto:Modyamean812@yahoo.com?subject=Inquiries%20from%20Website"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Email Me
+      </a>
       <div className="content">
         <div className="profile-section">
           {/* Profile Section */}
@@ -144,7 +153,8 @@ const Modyamean = () => {
           </div>
 
           {/* Name */}
-          <h1 className="name">Mody Amean</h1>
+          <h1 style = {{marginBottom: -35, marginTop: -10}}>Dr.</h1>
+          <h2 className="name" style = {{margin: 0}}>Mody Amean</h2>
 
           {/* Navigation Links */}
           {/* We attach the onClick to the parent <nav> to capture all clicks. */}
@@ -156,11 +166,12 @@ const Modyamean = () => {
 
           {/* Description */}
           <div className="description">
-            <p>
-              [Your friend's description will go here. This section can describe their work
-              as a pharmacist, their passion for photography, and any other relevant
-              information about their professional and creative pursuits.]
-            </p>
+          <p>
+            Every photo I take is more than just an image—it's a story, a memory, and a moment of joy. 
+            My goal is to capture life's beauty and put a smile on people's faces, knowing that God has 
+            blessed us with these precious moments. Whether through my lens or my work as a pharmacist, 
+            I aim to make a positive impact in everything I do.
+          </p>
           </div>
 
           {/* Social Media Links */}

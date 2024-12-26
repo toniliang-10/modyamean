@@ -19,6 +19,28 @@ body {
     margin: 0 auto;
     padding: 4rem 1rem;
   }
+
+  .email-button {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: #efdddd; /* red-400 */
+    border: 1px solid #7F1D1D; /* red-900 */
+    border-radius: 9999px;
+    background-color: rgba(127, 29, 29, 0.2); /* Subtle red overlay */
+    transition: all 0.3s ease;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  
+  .email-button:hover {
+    color: #FCA5A5; /* red-300 */
+    background-color: rgba(127, 29, 29, 0.4);
+    transform: scale(1.2);
+  }
+  
   
   /* Profile Section */
   .profile-section {

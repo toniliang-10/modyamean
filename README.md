@@ -28,7 +28,6 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 ## Devlog
 Devlog Website notes:
 
-- The Website has two pages: the home page and the Contact page.
-- The home acts like a profile page, with a navigation bar at the top and a portfolio section below it.
-- The Contact page has a contact form and a map section. This page is where the client can book an appointment or send a message to Mody for a photo shoot or for other purposes.
-
+- This portfolio is built with the intent of grabbing the attention of clients and raising iniquity.
+- The Website focuses on showcasing the photographer's work, phamacist's work, and achievements.
+- This is also a personal website where I (the developer) can showcase my ability to use different technologies, tools, and frameworks.

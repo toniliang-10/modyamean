@@ -2,17 +2,16 @@
   "name": "modyamean",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://toniliang-10.github.io/modyamean/",
+  "homepage": "https://toniliang-10.github.io/modyamean",
   "type": "module",
   "scripts": {
-  "start": "vite --open",
-  "build": "vite build",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
-,
+    "start": "vite --open",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

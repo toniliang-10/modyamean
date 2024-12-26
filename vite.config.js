@@ -7,5 +7,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     open: true // This will automatically open your browser
-  }
+  },
+  base: '/modyamean/',
 })
